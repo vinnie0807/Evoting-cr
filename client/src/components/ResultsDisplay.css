@@ -1,0 +1,59 @@
+/* client/src/components/ResultsDisplay.css */
+
+.results-display-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .results-display-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .results-display-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .results-display-container th,
+  .results-display-container td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .results-display-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .results-display-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .results-display-container tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .results-display-container p.no-results {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+  }
+  
+  .results-display-container p.loading-message,
+  .results-display-container p.error-message {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .results-display-container .error-message {
+    color: #dc3545;
+  }

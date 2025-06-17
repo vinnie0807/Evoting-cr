@@ -1,0 +1,64 @@
+/* client/src/components/VoteForm.css */
+
+.vote-form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vote-form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .vote-form-container p.error-message,
+  .vote-form-container p.success-message {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .vote-form-container p.error-message {
+    background-color: #ffe6e6;
+    color: #d32f2f;
+    border: 1px solid #d32f2f;
+  }
+  
+  .vote-form-container p.success-message {
+    background-color: #e6ffe6;
+    color: #4caf50;
+    border: 1px solid #4caf50;
+  }
+  
+  .vote-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vote-form-container select {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .vote-form-container button {
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vote-form-container button:hover {
+    background-color: #0056b3;
+  }
